@@ -14,6 +14,10 @@
 		CD437FB01E386C06009AD737 /* FL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD437FAE1E386C06009AD737 /* FL.xcdatamodeld */; };
 		CD437FB21E386C06009AD737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD437FB11E386C06009AD737 /* Assets.xcassets */; };
 		CD437FB51E386C06009AD737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD437FB31E386C06009AD737 /* LaunchScreen.storyboard */; };
+		CD437FC11E387178009AD737 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD437FBD1E387178009AD737 /* Bolts.framework */; };
+		CD437FC21E387178009AD737 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD437FBE1E387178009AD737 /* FBSDKCoreKit.framework */; };
+		CD437FC31E387178009AD737 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD437FBF1E387178009AD737 /* FBSDKLoginKit.framework */; };
+		CD437FC41E387178009AD737 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD437FC01E387178009AD737 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		CD437FB11E386C06009AD737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD437FB41E386C06009AD737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD437FB61E386C06009AD737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD437FBD1E387178009AD737 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Documents/FacebookSDKs-iOS-4.18.0/Bolts.framework"; sourceTree = "<group>"; };
+		CD437FBE1E387178009AD737 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		CD437FBF1E387178009AD737 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		CD437FC01E387178009AD737 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD437FC41E387178009AD737 /* FBSDKShareKit.framework in Frameworks */,
+				CD437FC11E387178009AD737 /* Bolts.framework in Frameworks */,
+				CD437FC21E387178009AD737 /* FBSDKCoreKit.framework in Frameworks */,
+				CD437FC31E387178009AD737 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +56,7 @@
 		CD437F961E386C06009AD737 = {
 			isa = PBXGroup;
 			children = (
+				CD437FBC1E387109009AD737 /* marcos */,
 				CD437FA11E386C06009AD737 /* FL */,
 				CD437FA01E386C06009AD737 /* Products */,
 			);
@@ -80,6 +93,17 @@
 				CD437FA31E386C06009AD737 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD437FBC1E387109009AD737 /* marcos */ = {
+			isa = PBXGroup;
+			children = (
+				CD437FBD1E387178009AD737 /* Bolts.framework */,
+				CD437FBE1E387178009AD737 /* FBSDKCoreKit.framework */,
+				CD437FBF1E387178009AD737 /* FBSDKLoginKit.framework */,
+				CD437FC01E387178009AD737 /* FBSDKShareKit.framework */,
+			);
+			name = marcos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "/Users/albertogarcia/Documents/FacebookSDKs-iOS-4.18.0";
 				INFOPLIST_FILE = FL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GM.FL;
@@ -285,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "/Users/albertogarcia/Documents/FacebookSDKs-iOS-4.18.0";
 				INFOPLIST_FILE = FL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GM.FL;
@@ -311,6 +337,7 @@
 				CD437FBB1E386C06009AD737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

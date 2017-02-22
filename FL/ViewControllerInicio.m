@@ -6,7 +6,7 @@
 //  Copyright © 2017 Alberto Garcia. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewControllerInicio.h"
 
 @interface ViewController ()
 

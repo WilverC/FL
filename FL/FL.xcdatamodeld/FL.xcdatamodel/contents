@@ -1,4 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15F34" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="EntityEmpresa" representedClassName="EntityEmpresa" syncable="YES" codeGenerationType="class">
+        <attribute name="calle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colonia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contrasenia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="correoCompania" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idEmpresa" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="idVacante" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="municipioDeleg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomUsuario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numExt" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="numInt" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pais" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="personaEncargada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="razonSocial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefono" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="EntityPersona" representedClassName="EntityPersona" syncable="YES" codeGenerationType="class">
+        <attribute name="apellido1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apellido2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="correo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaNac" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="idCurriculum" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="idPersona" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nombre1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numExt" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="numInt" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pais" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rfc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefono" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EntityPersona" positionX="-63" positionY="-18" width="128" height="270"/>
+        <element name="EntityEmpresa" positionX="-54" positionY="108" width="128" height="270"/>
+    </elements>
 </model>

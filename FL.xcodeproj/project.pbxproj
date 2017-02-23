@@ -26,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8972C0601E5E6DF4004D7C9C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8972C0F01E5E7947004D7C9C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
 		8972C0F11E5E7947004D7C9C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		8972C0F21E5E7947004D7C9C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -78,7 +77,6 @@
 				89BD457A1E5D25CF0096C6B5 /* Persona.m */,
 				89BD457C1E5D25DB0096C6B5 /* Compania.h */,
 				89BD457D1E5D25DB0096C6B5 /* Compania.m */,
-				8972C0601E5E6DF4004D7C9C /* main.m */,
 			);
 			name = logicaFL;
 			sourceTree = "<group>";

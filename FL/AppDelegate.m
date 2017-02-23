@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <FBSDKCoreKit/FBSDKCoreKit.h            >
+//#import <FBSDKCoreKit/FBSDKCoreKit.h            >
 
 @interface AppDelegate ()
 
@@ -18,8 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[FBSDKApplicationDelegate sharedInstance] application:application
-                             didFinishLaunchingWithOptions:launchOptions];
+    //[[FBSDKApplicationDelegate sharedInstance] application:application
+                             //didFinishLaunchingWithOptions:launchOptions];
     // Add any custom logic here.
     return YES;
 }
@@ -44,7 +44,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    [FBSDKAppEvents activateApp];
+    //[FBSDKAppEvents activateApp];
 }
 
 
@@ -54,18 +54,18 @@
     [self saveContext];
 }
 
-- (BOOL)application:(UIApplication *)application
-            openURL:(NSURL *)url
-            options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+//- (BOOL)application:(UIApplication *)application
+ //           openURL:(NSURL *)url
+ //           options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
     
-    BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
-                                                                  openURL:url
-                                                        sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
-                                                               annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
-                    ];
+  //  BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+    //                                                              openURL:url
+      //                                                  sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+        //                                                       annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
+            //        ];
     // Add any custom logic here.
-    return handled;
-}
+    //return handled;
+//}
 
 #pragma mark - Core Data stack
 

@@ -11,6 +11,10 @@
 		8972C0F51E5E7947004D7C9C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8972C0F11E5E7947004D7C9C /* FBSDKCoreKit.framework */; };
 		8972C0F61E5E7947004D7C9C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8972C0F21E5E7947004D7C9C /* FBSDKLoginKit.framework */; };
 		8972C0F71E5E7947004D7C9C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8972C0F31E5E7947004D7C9C /* FBSDKShareKit.framework */; };
+		899EC3061E67A69A00631ED0 /* ListaDeVacanteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899EC3051E67A69A00631ED0 /* ListaDeVacanteViewController.m */; };
+		899EC3091E67A92700631ED0 /* PerfilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899EC3081E67A92700631ED0 /* PerfilViewController.m */; };
+		899EC30C1E67A95600631ED0 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899EC30B1E67A95600631ED0 /* MatchViewController.m */; };
+		899EC30F1E67A97D00631ED0 /* CaracteristicaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899EC30E1E67A97D00631ED0 /* CaracteristicaViewController.m */; };
 		89BD45711E5D20670096C6B5 /* ViewControllerMenuInicio.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD45701E5D20670096C6B5 /* ViewControllerMenuInicio.m */; };
 		89BD45741E5D20B20096C6B5 /* ViewControllerInicioSesion.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD45731E5D20B20096C6B5 /* ViewControllerInicioSesion.m */; };
 		89BD45781E5D23A90096C6B5 /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD45771E5D23A90096C6B5 /* Usuario.m */; };
@@ -30,6 +34,14 @@
 		8972C0F11E5E7947004D7C9C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		8972C0F21E5E7947004D7C9C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		8972C0F31E5E7947004D7C9C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		899EC3041E67A69A00631ED0 /* ListaDeVacanteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaDeVacanteViewController.h; sourceTree = "<group>"; };
+		899EC3051E67A69A00631ED0 /* ListaDeVacanteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaDeVacanteViewController.m; sourceTree = "<group>"; };
+		899EC3071E67A92700631ED0 /* PerfilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfilViewController.h; sourceTree = "<group>"; };
+		899EC3081E67A92700631ED0 /* PerfilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfilViewController.m; sourceTree = "<group>"; };
+		899EC30A1E67A95600631ED0 /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		899EC30B1E67A95600631ED0 /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
+		899EC30D1E67A97D00631ED0 /* CaracteristicaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaracteristicaViewController.h; sourceTree = "<group>"; };
+		899EC30E1E67A97D00631ED0 /* CaracteristicaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaracteristicaViewController.m; sourceTree = "<group>"; };
 		89BD456F1E5D20670096C6B5 /* ViewControllerMenuInicio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerMenuInicio.h; sourceTree = "<group>"; };
 		89BD45701E5D20670096C6B5 /* ViewControllerMenuInicio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerMenuInicio.m; sourceTree = "<group>"; };
 		89BD45721E5D20B20096C6B5 /* ViewControllerInicioSesion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerInicioSesion.h; sourceTree = "<group>"; };
@@ -80,6 +92,7 @@
 			);
 			name = logicaFL;
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		CD437F961E386C06009AD737 = {
 			isa = PBXGroup;
@@ -110,10 +123,18 @@
 				89BD45731E5D20B20096C6B5 /* ViewControllerInicioSesion.m */,
 				89BD456F1E5D20670096C6B5 /* ViewControllerMenuInicio.h */,
 				89BD45701E5D20670096C6B5 /* ViewControllerMenuInicio.m */,
+				899EC3041E67A69A00631ED0 /* ListaDeVacanteViewController.h */,
+				899EC3051E67A69A00631ED0 /* ListaDeVacanteViewController.m */,
+				899EC30D1E67A97D00631ED0 /* CaracteristicaViewController.h */,
+				899EC30E1E67A97D00631ED0 /* CaracteristicaViewController.m */,
+				899EC3071E67A92700631ED0 /* PerfilViewController.h */,
+				899EC3081E67A92700631ED0 /* PerfilViewController.m */,
+				899EC30A1E67A95600631ED0 /* MatchViewController.h */,
+				899EC30B1E67A95600631ED0 /* MatchViewController.m */,
 				CD437FAB1E386C06009AD737 /* Main.storyboard */,
 				CD437FB11E386C06009AD737 /* Assets.xcassets */,
-				CD437FB31E386C06009AD737 /* LaunchScreen.storyboard */,
 				CD437FB61E386C06009AD737 /* Info.plist */,
+				CD437FB31E386C06009AD737 /* LaunchScreen.storyboard */,
 				CD437FAE1E386C06009AD737 /* FL.xcdatamodeld */,
 				CD437FA21E386C06009AD737 /* Supporting Files */,
 			);
@@ -210,12 +231,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899EC3091E67A92700631ED0 /* PerfilViewController.m in Sources */,
 				89BD45741E5D20B20096C6B5 /* ViewControllerInicioSesion.m in Sources */,
 				89BD45711E5D20670096C6B5 /* ViewControllerMenuInicio.m in Sources */,
 				CD437FAA1E386C06009AD737 /* ViewControllerInicio.m in Sources */,
 				CD437FB01E386C06009AD737 /* FL.xcdatamodeld in Sources */,
+				899EC3061E67A69A00631ED0 /* ListaDeVacanteViewController.m in Sources */,
 				89BD457E1E5D25DB0096C6B5 /* Compania.m in Sources */,
 				89BD457B1E5D25CF0096C6B5 /* Persona.m in Sources */,
+				899EC30F1E67A97D00631ED0 /* CaracteristicaViewController.m in Sources */,
+				899EC30C1E67A95600631ED0 /* MatchViewController.m in Sources */,
 				CD437FA71E386C06009AD737 /* AppDelegate.m in Sources */,
 				CD437FA41E386C06009AD737 /* main.m in Sources */,
 				89BD45781E5D23A90096C6B5 /* Usuario.m in Sources */,

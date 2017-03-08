@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)btnSoyEmpresa:(UIButton *)sender;
 
 @end
 

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PerfilViewController : UIViewController
+@interface PerfilProfesionalViewController : UIViewController
 
 @end

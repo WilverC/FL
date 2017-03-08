@@ -11,8 +11,13 @@
 		8972C0F51E5E7947004D7C9C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8972C0F11E5E7947004D7C9C /* FBSDKCoreKit.framework */; };
 		8972C0F61E5E7947004D7C9C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8972C0F21E5E7947004D7C9C /* FBSDKLoginKit.framework */; };
 		8972C0F71E5E7947004D7C9C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8972C0F31E5E7947004D7C9C /* FBSDKShareKit.framework */; };
+		8990FB831E6F93D900A017AC /* PerfilEmpresaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8990FB821E6F93D900A017AC /* PerfilEmpresaViewController.m */; };
+		8990FB861E6F957400A017AC /* RegistroProfesionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8990FB851E6F957400A017AC /* RegistroProfesionalViewController.m */; };
+		8990FB891E6F959F00A017AC /* RegistroEmpresaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8990FB881E6F959F00A017AC /* RegistroEmpresaViewController.m */; };
+		8990FB8C1E6F9A5000A017AC /* Vacante.m in Sources */ = {isa = PBXBuildFile; fileRef = 8990FB8B1E6F9A5000A017AC /* Vacante.m */; };
+		8990FB8F1E6F9A9D00A017AC /* ViewControllerRegistro.m in Sources */ = {isa = PBXBuildFile; fileRef = 8990FB8E1E6F9A9D00A017AC /* ViewControllerRegistro.m */; };
 		899EC3061E67A69A00631ED0 /* ListaDeVacanteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899EC3051E67A69A00631ED0 /* ListaDeVacanteViewController.m */; };
-		899EC3091E67A92700631ED0 /* PerfilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899EC3081E67A92700631ED0 /* PerfilViewController.m */; };
+		899EC3091E67A92700631ED0 /* PerfilProfesionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899EC3081E67A92700631ED0 /* PerfilProfesionalViewController.m */; };
 		899EC30C1E67A95600631ED0 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899EC30B1E67A95600631ED0 /* MatchViewController.m */; };
 		899EC30F1E67A97D00631ED0 /* CaracteristicaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899EC30E1E67A97D00631ED0 /* CaracteristicaViewController.m */; };
 		89BD45711E5D20670096C6B5 /* ViewControllerMenuInicio.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD45701E5D20670096C6B5 /* ViewControllerMenuInicio.m */; };
@@ -34,10 +39,20 @@
 		8972C0F11E5E7947004D7C9C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		8972C0F21E5E7947004D7C9C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		8972C0F31E5E7947004D7C9C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		8990FB811E6F93D900A017AC /* PerfilEmpresaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfilEmpresaViewController.h; sourceTree = "<group>"; };
+		8990FB821E6F93D900A017AC /* PerfilEmpresaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfilEmpresaViewController.m; sourceTree = "<group>"; };
+		8990FB841E6F957400A017AC /* RegistroProfesionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroProfesionalViewController.h; sourceTree = "<group>"; };
+		8990FB851E6F957400A017AC /* RegistroProfesionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroProfesionalViewController.m; sourceTree = "<group>"; };
+		8990FB871E6F959F00A017AC /* RegistroEmpresaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroEmpresaViewController.h; sourceTree = "<group>"; };
+		8990FB881E6F959F00A017AC /* RegistroEmpresaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroEmpresaViewController.m; sourceTree = "<group>"; };
+		8990FB8A1E6F9A5000A017AC /* Vacante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vacante.h; sourceTree = "<group>"; };
+		8990FB8B1E6F9A5000A017AC /* Vacante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vacante.m; sourceTree = "<group>"; };
+		8990FB8D1E6F9A9D00A017AC /* ViewControllerRegistro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerRegistro.h; sourceTree = "<group>"; };
+		8990FB8E1E6F9A9D00A017AC /* ViewControllerRegistro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerRegistro.m; sourceTree = "<group>"; };
 		899EC3041E67A69A00631ED0 /* ListaDeVacanteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaDeVacanteViewController.h; sourceTree = "<group>"; };
 		899EC3051E67A69A00631ED0 /* ListaDeVacanteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaDeVacanteViewController.m; sourceTree = "<group>"; };
-		899EC3071E67A92700631ED0 /* PerfilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfilViewController.h; sourceTree = "<group>"; };
-		899EC3081E67A92700631ED0 /* PerfilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfilViewController.m; sourceTree = "<group>"; };
+		899EC3071E67A92700631ED0 /* PerfilProfesionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfilProfesionalViewController.h; sourceTree = "<group>"; };
+		899EC3081E67A92700631ED0 /* PerfilProfesionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfilProfesionalViewController.m; sourceTree = "<group>"; };
 		899EC30A1E67A95600631ED0 /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
 		899EC30B1E67A95600631ED0 /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
 		899EC30D1E67A97D00631ED0 /* CaracteristicaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaracteristicaViewController.h; sourceTree = "<group>"; };
@@ -89,6 +104,8 @@
 				89BD457A1E5D25CF0096C6B5 /* Persona.m */,
 				89BD457C1E5D25DB0096C6B5 /* Compania.h */,
 				89BD457D1E5D25DB0096C6B5 /* Compania.m */,
+				8990FB8A1E6F9A5000A017AC /* Vacante.h */,
+				8990FB8B1E6F9A5000A017AC /* Vacante.m */,
 			);
 			name = logicaFL;
 			sourceTree = "<group>";
@@ -121,22 +138,30 @@
 				CD437FA91E386C06009AD737 /* ViewControllerInicio.m */,
 				89BD45721E5D20B20096C6B5 /* ViewControllerInicioSesion.h */,
 				89BD45731E5D20B20096C6B5 /* ViewControllerInicioSesion.m */,
+				8990FB8D1E6F9A9D00A017AC /* ViewControllerRegistro.h */,
+				8990FB8E1E6F9A9D00A017AC /* ViewControllerRegistro.m */,
+				8990FB841E6F957400A017AC /* RegistroProfesionalViewController.h */,
+				8990FB851E6F957400A017AC /* RegistroProfesionalViewController.m */,
+				8990FB871E6F959F00A017AC /* RegistroEmpresaViewController.h */,
+				8990FB881E6F959F00A017AC /* RegistroEmpresaViewController.m */,
 				89BD456F1E5D20670096C6B5 /* ViewControllerMenuInicio.h */,
 				89BD45701E5D20670096C6B5 /* ViewControllerMenuInicio.m */,
 				899EC3041E67A69A00631ED0 /* ListaDeVacanteViewController.h */,
 				899EC3051E67A69A00631ED0 /* ListaDeVacanteViewController.m */,
 				899EC30D1E67A97D00631ED0 /* CaracteristicaViewController.h */,
 				899EC30E1E67A97D00631ED0 /* CaracteristicaViewController.m */,
-				899EC3071E67A92700631ED0 /* PerfilViewController.h */,
-				899EC3081E67A92700631ED0 /* PerfilViewController.m */,
+				8990FB811E6F93D900A017AC /* PerfilEmpresaViewController.h */,
+				8990FB821E6F93D900A017AC /* PerfilEmpresaViewController.m */,
+				899EC3081E67A92700631ED0 /* PerfilProfesionalViewController.m */,
+				899EC3071E67A92700631ED0 /* PerfilProfesionalViewController.h */,
 				899EC30A1E67A95600631ED0 /* MatchViewController.h */,
 				899EC30B1E67A95600631ED0 /* MatchViewController.m */,
 				CD437FAB1E386C06009AD737 /* Main.storyboard */,
 				CD437FB11E386C06009AD737 /* Assets.xcassets */,
+				CD437FA21E386C06009AD737 /* Supporting Files */,
 				CD437FB61E386C06009AD737 /* Info.plist */,
 				CD437FB31E386C06009AD737 /* LaunchScreen.storyboard */,
 				CD437FAE1E386C06009AD737 /* FL.xcdatamodeld */,
-				CD437FA21E386C06009AD737 /* Supporting Files */,
 			);
 			path = FL;
 			sourceTree = "<group>";
@@ -231,19 +256,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899EC3091E67A92700631ED0 /* PerfilViewController.m in Sources */,
+				899EC3091E67A92700631ED0 /* PerfilProfesionalViewController.m in Sources */,
 				89BD45741E5D20B20096C6B5 /* ViewControllerInicioSesion.m in Sources */,
 				89BD45711E5D20670096C6B5 /* ViewControllerMenuInicio.m in Sources */,
 				CD437FAA1E386C06009AD737 /* ViewControllerInicio.m in Sources */,
+				8990FB8C1E6F9A5000A017AC /* Vacante.m in Sources */,
 				CD437FB01E386C06009AD737 /* FL.xcdatamodeld in Sources */,
+				8990FB891E6F959F00A017AC /* RegistroEmpresaViewController.m in Sources */,
 				899EC3061E67A69A00631ED0 /* ListaDeVacanteViewController.m in Sources */,
+				8990FB831E6F93D900A017AC /* PerfilEmpresaViewController.m in Sources */,
 				89BD457E1E5D25DB0096C6B5 /* Compania.m in Sources */,
 				89BD457B1E5D25CF0096C6B5 /* Persona.m in Sources */,
 				899EC30F1E67A97D00631ED0 /* CaracteristicaViewController.m in Sources */,
 				899EC30C1E67A95600631ED0 /* MatchViewController.m in Sources */,
 				CD437FA71E386C06009AD737 /* AppDelegate.m in Sources */,
 				CD437FA41E386C06009AD737 /* main.m in Sources */,
+				8990FB8F1E6F9A9D00A017AC /* ViewControllerRegistro.m in Sources */,
 				89BD45781E5D23A90096C6B5 /* Usuario.m in Sources */,
+				8990FB861E6F957400A017AC /* RegistroProfesionalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

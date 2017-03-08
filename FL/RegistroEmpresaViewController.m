@@ -1,18 +1,18 @@
 //
-//  PerfilViewController.m
+//  RegistroEmpresaViewController.m
 //  FL
 //
-//  Created by CIC-IPN-E3 on 01/03/17.
+//  Created by CIC-IPN-E3 on 07/03/17.
 //  Copyright © 2017 Alberto Garcia. All rights reserved.
 //
 
-#import "PerfilViewController.h"
+#import "RegistroEmpresaViewController.h"
 
-@interface PerfilViewController ()
+@interface RegistroEmpresaViewController ()
 
 @end
 
-@implementation PerfilViewController
+@implementation RegistroEmpresaViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

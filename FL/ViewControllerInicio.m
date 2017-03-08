@@ -7,6 +7,7 @@
 //
 
 #import "ViewControllerInicio.h"
+#import "ViewControllerRegistro.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,11 @@
 
 -(void)Probando{
     NSLog(@"Hola");
+}
+
+-(IBAction)btnSoyEmpresa:(UIButton *)sender{
+    ViewController *vcr = [[ViewController alloc]	initWithNibName:@"ViewControllerRegistro" bundle:Nil];
+       // [self presentedViewController = ];
 }
 
 @end

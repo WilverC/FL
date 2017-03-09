@@ -7,8 +7,14 @@
 //
 
 #import "ViewControllerRegistro.h"
+#import "RegistroEmpresaViewController.h"
+#import "RegistroProfesionalViewController.h"
 
 @interface ViewControllerRegistro ()
+
+@property (weak, nonatomic) IBOutlet UISwitch *opcionEmPro;
+
+-(IBAction)btnSiguiente:(id)sender;
 
 @end
 
@@ -33,5 +39,16 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(IBAction)btnSiguiente:(id)sender{
+    RegistroProfesionalViewController *rpvc = [self.storyboard instantiateViewControllerWithIdentifier:@"RegistroProfesionalViewController"];
+    RegistroEmpresaViewController *revc= [self.storyboard instantiateViewControllerWithIdentifier:@"RegistroEmpresaViewController"];
+    
+    if(self.opcionEmPro.isOn){
+        [self presentViewController:revc animated:YES completion:^{}];
+    }else{
+        [self presentViewController:rpvc animated:YES completion:^{}];
+    }
+}
 
 @end

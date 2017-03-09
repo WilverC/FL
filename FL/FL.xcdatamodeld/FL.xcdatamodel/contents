@@ -17,6 +17,12 @@
         <attribute name="razonSocial" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="telefono" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
     </entity>
+    <entity name="EntityIdioma" representedClassName="EntityIdioma" syncable="YES" codeGenerationType="class">
+        <attribute name="dominio" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="iDIdioma" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="idioma" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iDProfesional" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
     <entity name="EntityPersona" representedClassName="EntityPersona" syncable="YES" codeGenerationType="class">
         <attribute name="apellido1" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="apellido2" optional="YES" attributeType="String" syncable="YES"/>
@@ -34,8 +40,17 @@
         <attribute name="rfc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="telefono" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
     </entity>
+    <entity name="EntityVacante" representedClassName="EntityVacante" syncable="YES" codeGenerationType="class">
+        <attribute name="idEmpresa" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="idVacante" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="requisitos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salario" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="vacante" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="EntityPersona" positionX="-63" positionY="-18" width="128" height="270"/>
         <element name="EntityEmpresa" positionX="-54" positionY="108" width="128" height="270"/>
+        <element name="EntityPersona" positionX="-63" positionY="-18" width="128" height="270"/>
+        <element name="EntityIdioma" positionX="-54" positionY="135" width="128" height="105"/>
+        <element name="EntityVacante" positionX="-45" positionY="144" width="128" height="120"/>
     </elements>
 </model>

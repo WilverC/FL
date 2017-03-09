@@ -7,13 +7,17 @@
 //
 
 #import "ViewControllerInicio.h"
+#import "ViewControllerInicioSesion.h"
 #import "ViewControllerRegistro.h"
 
-@interface ViewController ()
+@interface ViewControllerInicio ()
+
+-(IBAction)btnSoyEmpresa:(id)sender;
+-(IBAction)btnSoyNuevo:(id)sender;
 
 @end
 
-@implementation ViewController
+@implementation ViewControllerInicio
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,9 +35,20 @@
     NSLog(@"Hola");
 }
 
--(IBAction)btnSoyEmpresa:(UIButton *)sender{
-    ViewController *vcr = [[ViewController alloc]	initWithNibName:@"ViewControllerRegistro" bundle:Nil];
-       // [self presentedViewController = ];
+//muestra la ventana de iniciar sesion
+-(IBAction)btnSoyEmpresa:(id)sender{
+    ViewControllerInicioSesion *vcis = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewControllerInicioSesion"];
+    
+    [self presentViewController:vcis animated:YES completion:^{}];
 }
+
+//muestra la venta de registro nuevo
+-(IBAction)btnSoyNuevo:(id)sender{
+    ViewControllerRegistro *vcr = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewControllerRegistro"];
+    [self presentViewController:vcr animated:YES completion:^{}];
+}
+
+
+
 
 @end

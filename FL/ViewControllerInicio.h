@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
--(IBAction)btnSoyEmpresa:(UIButton *)sender;
+@interface ViewControllerInicio : UIViewController
 
 @end
 

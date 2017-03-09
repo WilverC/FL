@@ -13,8 +13,6 @@
 //Atributos necesarios para lamanipulacion de la base de datos de la compania
 @property (nonatomic,strong) NSString *razonSocial;
 @property (nonatomic,strong) NSString *personaEncargada;
-@property (nonatomic,strong) NSString *nomUsuario;
-@property (nonatomic,strong) NSString *contrasenia;
 //metodos de solicitud de datos en la base para si posterior visualizacion en el ViewController
 
 @end

@@ -18,9 +18,10 @@ typedef NS_ENUM(NSInteger, CoreDataPredicateType){
 };
 
 typedef NS_ENUM(NSInteger, CoreDataEntity) {
-    CoreDataEntityPerson,
-    CoreDataEntityStore,
-    CoreDataEntityDocument
+    CoreDataEntityIdioma,
+    CoreDataEntityPersona,
+    CoreDataEntityVacante,
+    CoreDataEntityEmpresa
 };
 
 @interface MPSGenericCoreDataDAO : NSObject

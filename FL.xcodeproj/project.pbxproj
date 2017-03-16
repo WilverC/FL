@@ -152,7 +152,9 @@
 				89C89F2F1E70E9DE00474CC3 /* MPSGenericCoreDataDAO.m */,
 			);
 			name = CoreData;
-			sourceTree = "<group>";
+			path = "/Users/aula-e3-c1/Documents/FL";
+			sourceTree = "<absolute>";
+			wrapsLines = 1;
 		};
 		89C89F201E70E8B800474CC3 /* model */ = {
 			isa = PBXGroup;
@@ -277,6 +279,10 @@
 		CD437F971E386C06009AD737 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+					"New-1",
+				);
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Alberto Garcia";
 				TargetAttributes = {

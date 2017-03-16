@@ -8,10 +8,10 @@
 
 #import "MPSGenericCoreDataDAO.h"
 #import "MPSCoreDataManager.h"
-#import "StoreEntity+CoreDataProperties.h"
-#import "PersonEntity+CoreDataProperties.h"
-#import "DocumentEntity+CoreDataProperties.h"
-
+#import "EntityIdioma+CoreDataProperties.h"
+#import "EntityPersona+CoreDataProperties.h"
+#import "EntityVacante+CoreDataProperties.h"
+#import "EntityEmpresa+CoreDataProperties.h"
 @interface MPSGenericCoreDataDAO()
 @property (strong) MPSCoreDataManager *coreDataManager;
 @end
@@ -255,16 +255,20 @@
     NSString *entityName = nil;
     
     switch (entity) {
-        case CoreDataEntityStore:
-            entityName = NSStringFromClass([StoreEntity class]);
+        case CoreDataEntityIdioma:
+            entityName = NSStringFromClass([EntityIdioma class]);
             break;
             
-        case CoreDataEntityPerson:
-            entityName = NSStringFromClass([PersonEntity class]);
+        case CoreDataEntityPersona:
+            entityName = NSStringFromClass([EntityPersona class]);
             break;
         
-        case CoreDataEntityDocument:
-            entityName = NSStringFromClass([DocumentEntity class]);
+        case CoreDataEntityVacante:
+            entityName = NSStringFromClass([EntityVacante class]);
+            break;
+            
+        case CoreDataEntityEmpresa:
+            entityName = NSStringFromClass([EntityEmpresa class]);
             break;
             
         default:

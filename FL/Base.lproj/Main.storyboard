@@ -393,6 +393,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="pickerEstado" destination="a97-0J-dRu" id="aXe-Tw-vBW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cUx-rw-M5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

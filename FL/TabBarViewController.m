@@ -1,24 +1,18 @@
 //
-//  ViewControllerInicioSesion.m
+//  TabBarViewController.m
 //  FL
 //
-//  Created by CIC-IPN-E3 on 21/02/17.
+//  Created by Jovanny Wilver Cortez Enriquez on 20/03/17.
 //  Copyright © 2017 Alberto Garcia. All rights reserved.
 //
 
-#import "ViewControllerInicioSesion.h"
 #import "TabBarViewController.h"
 
-@interface ViewControllerInicioSesion ()
-
-@property (weak, nonatomic) IBOutlet UITextField *txtUsuario;
-@property (weak, nonatomic) IBOutlet UITextField *txtContrasenia;
-
-- (IBAction)btnAceptar:(UIButton *)sender;
+@interface TabBarViewController ()
 
 @end
 
-@implementation ViewControllerInicioSesion
+@implementation TabBarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -39,10 +33,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-- (IBAction)btnAceptar:(UIButton *)sender {
-    TabBarViewController *tbvc= [self.storyboard instantiateViewControllerWithIdentifier:@"TabBarViewController"];
-    [self presentViewController:tbvc animated:YES completion:^{}];
-}
 
 @end

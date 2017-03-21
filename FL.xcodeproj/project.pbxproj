@@ -25,21 +25,11 @@
 		89BD45781E5D23A90096C6B5 /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD45771E5D23A90096C6B5 /* Usuario.m */; };
 		89BD457B1E5D25CF0096C6B5 /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD457A1E5D25CF0096C6B5 /* Persona.m */; };
 		89BD457E1E5D25DB0096C6B5 /* Compania.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD457D1E5D25DB0096C6B5 /* Compania.m */; };
-		89C89F1C1E70E88000474CC3 /* EntityPersona+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F151E70E88000474CC3 /* EntityPersona+CoreDataClass.m */; };
-		89C89F1D1E70E88000474CC3 /* EntityPersona+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F171E70E88000474CC3 /* EntityPersona+CoreDataProperties.m */; };
-		89C89F1E1E70E88000474CC3 /* EntityEmpresa+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F191E70E88000474CC3 /* EntityEmpresa+CoreDataClass.m */; };
-		89C89F1F1E70E88000474CC3 /* EntityEmpresa+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F1B1E70E88000474CC3 /* EntityEmpresa+CoreDataProperties.m */; };
-		89C89F311E70E9DE00474CC3 /* MPSCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F2E1E70E9DE00474CC3 /* MPSCoreDataManager.m */; };
-		89C89F321E70E9DE00474CC3 /* MPSGenericCoreDataDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F2F1E70E9DE00474CC3 /* MPSGenericCoreDataDAO.m */; };
-		89C89F3B1E70EC5700474CC3 /* EntityIdioma+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F341E70EC5700474CC3 /* EntityIdioma+CoreDataClass.m */; };
-		89C89F3C1E70EC5700474CC3 /* EntityIdioma+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F361E70EC5700474CC3 /* EntityIdioma+CoreDataProperties.m */; };
-		89C89F3D1E70EC5700474CC3 /* EntityVacante+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F381E70EC5700474CC3 /* EntityVacante+CoreDataClass.m */; };
-		89C89F3E1E70EC5700474CC3 /* EntityVacante+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C89F3A1E70EC5700474CC3 /* EntityVacante+CoreDataProperties.m */; };
+		CC75A50D1E80BB0500FC56EF /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75A50C1E80BB0500FC56EF /* TabBarViewController.m */; };
 		CD437FA41E386C06009AD737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD437FA31E386C06009AD737 /* main.m */; };
 		CD437FA71E386C06009AD737 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD437FA61E386C06009AD737 /* AppDelegate.m */; };
 		CD437FAA1E386C06009AD737 /* ViewControllerInicio.m in Sources */ = {isa = PBXBuildFile; fileRef = CD437FA91E386C06009AD737 /* ViewControllerInicio.m */; };
 		CD437FAD1E386C06009AD737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD437FAB1E386C06009AD737 /* Main.storyboard */; };
-		CD437FB01E386C06009AD737 /* FL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD437FAE1E386C06009AD737 /* FL.xcdatamodeld */; };
 		CD437FB21E386C06009AD737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD437FB11E386C06009AD737 /* Assets.xcassets */; };
 		CD437FB51E386C06009AD737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD437FB31E386C06009AD737 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -97,6 +87,8 @@
 		89C89F381E70EC5700474CC3 /* EntityVacante+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EntityVacante+CoreDataClass.m"; sourceTree = "<group>"; };
 		89C89F391E70EC5700474CC3 /* EntityVacante+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EntityVacante+CoreDataProperties.h"; sourceTree = "<group>"; };
 		89C89F3A1E70EC5700474CC3 /* EntityVacante+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EntityVacante+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CC75A50B1E80BB0500FC56EF /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		CC75A50C1E80BB0500FC56EF /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		CD437F9F1E386C06009AD737 /* FL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD437FA31E386C06009AD737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD437FA51E386C06009AD737 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -226,6 +218,8 @@
 				899EC30A1E67A95600631ED0 /* MatchViewController.h */,
 				899EC30B1E67A95600631ED0 /* MatchViewController.m */,
 				CD437FAB1E386C06009AD737 /* Main.storyboard */,
+				CC75A50B1E80BB0500FC56EF /* TabBarViewController.h */,
+				CC75A50C1E80BB0500FC56EF /* TabBarViewController.m */,
 				CD437FB11E386C06009AD737 /* Assets.xcassets */,
 				CD437FA21E386C06009AD737 /* Supporting Files */,
 				CD437FB61E386C06009AD737 /* Info.plist */,
@@ -328,33 +322,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C89F3B1E70EC5700474CC3 /* EntityIdioma+CoreDataClass.m in Sources */,
-				89C89F1C1E70E88000474CC3 /* EntityPersona+CoreDataClass.m in Sources */,
-				89C89F1E1E70E88000474CC3 /* EntityEmpresa+CoreDataClass.m in Sources */,
 				899EC3091E67A92700631ED0 /* PerfilProfesionalViewController.m in Sources */,
 				89BD45741E5D20B20096C6B5 /* ViewControllerInicioSesion.m in Sources */,
 				89BD45711E5D20670096C6B5 /* ViewControllerMenuInicio.m in Sources */,
 				CD437FAA1E386C06009AD737 /* ViewControllerInicio.m in Sources */,
-				89C89F3E1E70EC5700474CC3 /* EntityVacante+CoreDataProperties.m in Sources */,
 				8990FB8C1E6F9A5000A017AC /* Vacante.m in Sources */,
-				CD437FB01E386C06009AD737 /* FL.xcdatamodeld in Sources */,
 				8990FB891E6F959F00A017AC /* RegistroEmpresaViewController.m in Sources */,
 				899EC3061E67A69A00631ED0 /* ListaDeVacanteViewController.m in Sources */,
 				8990FB831E6F93D900A017AC /* PerfilEmpresaViewController.m in Sources */,
 				89BD457E1E5D25DB0096C6B5 /* Compania.m in Sources */,
-				89C89F3C1E70EC5700474CC3 /* EntityIdioma+CoreDataProperties.m in Sources */,
 				89BD457B1E5D25CF0096C6B5 /* Persona.m in Sources */,
 				899EC30F1E67A97D00631ED0 /* CaracteristicaViewController.m in Sources */,
-				89C89F1F1E70E88000474CC3 /* EntityEmpresa+CoreDataProperties.m in Sources */,
 				899EC30C1E67A95600631ED0 /* MatchViewController.m in Sources */,
 				CD437FA71E386C06009AD737 /* AppDelegate.m in Sources */,
-				89C89F3D1E70EC5700474CC3 /* EntityVacante+CoreDataClass.m in Sources */,
 				CD437FA41E386C06009AD737 /* main.m in Sources */,
 				8990FB8F1E6F9A9D00A017AC /* ViewControllerRegistro.m in Sources */,
-				89C89F1D1E70E88000474CC3 /* EntityPersona+CoreDataProperties.m in Sources */,
-				89C89F311E70E9DE00474CC3 /* MPSCoreDataManager.m in Sources */,
 				89BD45781E5D23A90096C6B5 /* Usuario.m in Sources */,
-				89C89F321E70E9DE00474CC3 /* MPSGenericCoreDataDAO.m in Sources */,
+				CC75A50D1E80BB0500FC56EF /* TabBarViewController.m in Sources */,
 				8990FB861E6F957400A017AC /* RegistroProfesionalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "/Users/aula-e3-c1/Documents/FacebookSDK";
+				FRAMEWORK_SEARCH_PATHS = /Users/wilvercortez/Documents/FacebookSDK;
 				INFOPLIST_FILE = FL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GM.FL;
@@ -485,7 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "/Users/aula-e3-c1/Documents/FacebookSDK";
+				FRAMEWORK_SEARCH_PATHS = /Users/wilvercortez/Documents/FacebookSDK;
 				INFOPLIST_FILE = FL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GM.FL;

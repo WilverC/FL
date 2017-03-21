@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegistroEmpresaViewController : UIViewController
+@interface RegistroEmpresaViewController : UIViewController<UIPickerViewDataSource,UIPickerViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIPickerView *estadoPicker;
 
 @end

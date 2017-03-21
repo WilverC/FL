@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegistroProfesionalViewController : UIViewController
+@interface RegistroProfesionalViewController : UIViewController<UIPickerViewDataSource,UIPickerViewDelegate>
+@property (weak, nonatomic) IBOutlet UIPickerView *estadoPicker;
+
+@property (weak, nonatomic) IBOutlet UITextField *fecNacRefPicker;
+
 
 @end
